@@ -37,3 +37,13 @@
 
    #### Noms de variables valides :
      $a, $_a, $a_a, $AAA et $a1.
+
+### Exercice 4 — Question 6
+
+   #### Instructions d'exécution :
+     $var4 = true;
+     $var5 = false;
+     echo "<br>echo : $var4 et $var5<br>";
+     var_dump($var4, $var5);
+   #### Explication de la différence d'affichage :
+     echo transforme tout ce qu'il affiche en chaîne de caractères avant l'affichage, donc il transforme false en une chaîne vide "", tandis que var_dump() affiche le type exact sans aucune conversion.
