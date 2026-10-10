@@ -47,3 +47,14 @@
      var_dump($var4, $var5);
    #### Explication de la différence d'affichage :
      echo transforme tout ce qu'il affiche en chaîne de caractères avant l'affichage, donc il transforme false en une chaîne vide "", tandis que var_dump() affiche le type exact sans aucune conversion.
+
+### Exercice 5 — Question 5
+
+   #### Valeurs testées et messages obtenus (valeur : message) :
+     -1 : Note invalide
+     9 : Non validé
+     10 : Passable
+     12 : Assez bien
+     14 : Bien
+     16 : Très bien
+     21 : Note invalide
