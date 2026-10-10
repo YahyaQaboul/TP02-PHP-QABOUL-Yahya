@@ -4,7 +4,9 @@
 * **Prénom :** Yahya
 * **Groupe :** Groupe 4
 
+
 ---
+
 
 ## Liste des exercices
 * **Exercice 1 :** `ex01.php`
@@ -18,3 +20,20 @@
 * **Exercice 9 :** `ex09.php`
 * **Exercice 10 (GET) :** `ex10_get.html` & `ex10_get.php`
 * **Exercice 10 (POST) :** `ex10_post.html` & `ex10_post.php`
+
+
+---
+
+
+## Réponses complémentaires aux exercices du TP
+
+### Exercice 2 — Question 5
+
+   #### Instructions d'exécution :
+     $note = 12;
+     $Note = 16;
+   #### Explication :
+     Les variables $note et $Note sont différentes, car PHP est sensible à la casse dans les noms des variables.
+
+   #### Noms de variables valides :
+     $a, $_a, $a_a, $AAA et $a1.
