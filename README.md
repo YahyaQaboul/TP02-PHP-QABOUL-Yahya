@@ -58,3 +58,12 @@
      14 : Bien
      16 : Très bien
      21 : Note invalide
+
+### Exercice 6 — Questions 4 et 5
+
+   #### Valeurs testées et messages obtenus (valeur : message) :
+     1 : Janvier
+     3 : Mars
+     12 : Décembre
+     15 : Numéro de mois invalide
+     (int) date("m") : Octobre
