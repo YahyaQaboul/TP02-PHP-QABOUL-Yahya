@@ -67,3 +67,11 @@
      12 : Décembre
      15 : Numéro de mois invalide
      (int) date("m") : Octobre
+
+### Exercice 10 — Questions A-4 et B-4
+
+   #### A-4 : Observation et explication de l'URL
+     Avec la méthode GET, les données saisies dans le formulaire apparaissent directement dans l'URL après un point d'interrogation (?), sous la forme de paires clé-valeur séparées par des esperluettes (&).
+   #### A-5 : Comparaison des URL obtenues
+     `Méthode GET :` Les données sont visibles dans la barre d'adresse de l'URL (ce qui la rend impropre pour les données sensibles comme les mots de passe et limite la longueur des données).
+     `Méthode POST :` L'URL de la page de traitement (ex10_post.php) reste propre et ne contient aucune variable visible. Les données sont transmises de manière invisible dans l'en-tête (payload) de la requête HTTP.
